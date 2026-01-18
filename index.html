@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="bg-[#1a0c31] sticky top-0">
+       <div class="header-area flex items-center justify-around text-white py-8 mt-10">
+         <div class="logo">
+            <h1 class="text-3xl sm:text-4xl font-bold">Tech<span class="text-[#e107c5]">Wave</span></h1>
+        </div>
+        <div class="menu-item sm:block hidden">
+            <ul class="flex gap-6">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+        </div>
+        <div class="subscribe-btn">
+            <button class="btn text-white text-xl px-6 py-2 rounded-2xl px-10 font-bold cursor-pointer hidden sm:block">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+            <div class="sm:hidden text-2xl hover:text-[#e107c5] cursor-pointer"><i class="fa-solid fa-bars-staggered"></i></div>
+
+        </div>
+       </div>
+    </header>
+    <section class="hero-area flex items-center justify-center direction-column">
+        <div class="relative">
+            <div class=""><img src="./assets/hero-circle.png" alt=""></div>
+            <div class="absolute top-20 left-28"><img src="./assets/microphone.png" alt=""></div>
+            <div class="new-btn font-bold absolute top-6 right-7 bg-[#00ff88] rounded-2xl">NEW</div>
+        </div>
+        <!-- <div>
+            <h1>TechWave</h1>
+            <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <div>
+                <button class="btn text-white text-xl px-6 py-2 rounded-2xl px-10 font-bold cursor-pointer">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div> -->
+    </section>
+</body>
+</html>
